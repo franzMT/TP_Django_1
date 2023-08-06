@@ -1,0 +1,163 @@
+/*botones*/
+.boton {
+    display: inline-block;
+    color: white;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.boton:hover {
+    transform: scale(1.03);
+}
+
+.Login {
+    background-color: #007BFF;
+    margin-top: 15px; 
+}
+.Login:hover {
+    background-color: #4F9FFF;
+}
+
+.boton.Cancelar {
+    background-color: #DC3545;
+    text-decoration: none;
+}
+.Cancelar:hover {
+    background-color: #FF6B7D;
+    text-decoration: none ;
+    transform: scale(1.05);
+}
+
+.aceptar {
+    background-color: #17A2B8;
+}
+.aceptar:hover {
+    background-color: #53BFD4;
+}
+
+.logout {
+    background-color: #DC3545;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.logout:hover {
+    background-color: #FF6B7D;
+}
+
+.login {
+    background-color: #007BFF;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.login:hover {
+    background-color: #4F9FFF;
+}
+
+.editar {
+    background-color: #4CAF50;
+}
+.editar:hover {
+    background-color: #7EDB7A;
+}
+
+.eliminar {
+    background-color: #FF0000;
+}
+.eliminar:hover {
+    background-color: #FF5757;
+}
+
+.crear {
+    background-color: #007BFF;
+    display: block;
+    margin-top: 10px;
+    margin-right: 12%; 
+    float: right;
+}
+.crear:hover {
+    background-color: #4F9FFF;
+}
+
+.guardar {
+    background-color: #17A2B8;
+}
+.guardar:hover {
+    background-color: #53BFD4;
+}
+
+.cancelar {
+    background-color: #DC3545;
+}
+.cancelar:hover {
+    background-color: #FF6B7D;
+}
+
+/*contenido*/
+
+h1 {
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+    
+}
+.contenidoLogin {
+    background-image: url("/static/img/inventory.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 11%;
+}
+.imgLogin{
+    position: absolute;
+    left: 60%;
+    width: 10%;
+}
+
+.contListado {
+    background-image: url("/static/img/inventory-management.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.table {
+    text-align: center;   
+    width: 90%;
+    margin-left: 5%;
+}
+
+.form-control{
+    text-align: center;
+}
+.form-control p{
+    font-weight: bold;
+}
+
+.imgEditar{
+    position:relative;
+    width: 30%;
+    top: -8px;
+    left: 34%;
+}
+.formEditar{
+    background-color: rgba(255, 255, 255, 0.457);
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    top: 140px;
+    width: 30%;
+    margin-left: 35%;
+    color: #000000;
+}
+
+
+
+
+

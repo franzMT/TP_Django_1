@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="contenidoLogin">
+  <img src="/static/img/XOsX.gif" class="imgLogin" >
+    <h2>Inicie Sesion</h2>
+    <form method="post">
+        <table>
+            {% csrf_token %}
+            {{form.as_table}}
+        </table>
+        <button type="submit" class="boton Login">Login</button>
+        <a href="{% url 'listado'%}" class="boton Cancelar">Cancelar</a>       
+    </form>
+  </div>
+</div>
+{% endblock content %}
